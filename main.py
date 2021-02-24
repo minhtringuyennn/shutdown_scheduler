@@ -4,7 +4,7 @@ print("System started!")
 
 sys_max_hour = 1 #set maximum hours
 sys_start_time = datetime.datetime.now()
-delta = datetime.timedelta(hours = sys_maxhour)
+delta = datetime.timedelta(hours = sys_max_hour)
 sys_shutdown_time = sys_start_time + delta
 
 def shutdown():
