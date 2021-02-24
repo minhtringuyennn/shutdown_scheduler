@@ -8,8 +8,8 @@ delta = datetime.timedelta(hours = sys_maxhour)
 sys_shutdown_time = sys_start_time + delta
 
 def shutdown():
-	subprocess.call(["shutdown", "/s", "/f", "/t", "120",
-    "/c", "Còn 2 phút trước khi tắt máy. Sao lưu dữ liệu!"])
+	subprocess.call(["shutdown", "/s", "/f", "/t", "120", 
+	"/c", "Còn 2 phút trước khi tắt máy. Sao lưu dữ liệu!"])
 	sys.exit()
 
 while True:
